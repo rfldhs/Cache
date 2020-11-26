@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "Cache",
-            path: "Source"
+            path: "Source")
         .testTarget(
             name: "CacheTests",
             dependencies: ["Cache"],
